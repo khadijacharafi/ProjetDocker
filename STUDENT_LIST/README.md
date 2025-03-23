@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # dockerprojet
-=======
+
 # Mini-Projet Docker : Conteneurisation d'une Application
 Ce projet consiste à conteneuriser une application Python avec un frontend en PHP et un backend en Flask. L'application permet d'afficher une liste d'étudiants avec leur âge.
 ## Structure du Projet
@@ -144,4 +144,4 @@ Ce fichier déploie un registre Docker privé et une interface web pour visualis
 
 ## Conclusion
 Ce projet a permis de conteneuriser une application Python (Flask) avec un frontend en PHP grâce à Docker. L'utilisation de Docker Compose a simplifié le déploiement et la gestion des services, tandis qu'un registre Docker privé a sécurisé le stockage des images. Cette approche a amélioré la portabilité, la scalabilité et la maintenance de l'application, démontrant l'efficacité des technologies de conteneurisation.
->>>>>>> 815ed66 (Initial commit - Conteneurisation de l'application)
+
