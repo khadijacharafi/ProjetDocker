@@ -26,7 +26,7 @@ STUDENT_LIST
 
 Le fichier `Dockerfile` est utilisé pour construire l'image Docker de l'API Flask. Voici son contenu :
 
-![alt text](images/image-11.png)
+![alt text](image-11.png)
 **explication** :
 
 `FROM python:3.8-slim`:
@@ -78,17 +78,17 @@ Lorsque le conteneur démarre, il exécute la commande python student_age.py  ,
 
 **Test de l'API:**
     Construisez l'image Docker :
-            ![alt text](images/image-6.png)
+            ![alt text](image-6.png)
     Lancez le conteneur :
-            ![alt text](images/image-10.png)
+            ![alt text](image-10.png)
     Testez l'API avec http://localhost:5000/SUPMIT/api/v1.0/get_student_ages
-            ![alt text](images/image-8.png)
+            ![alt text](image-8.png)
     
 
 ### 2.Déploiement avec Docker Compose
 **docker-compose.yml** 
 Le fichier docker-compose.yml permet de déployer l'application complète (frontend PHP et backend Flask). Voici son contenu :
-![alt text](images/image-12.png)
+![alt text](image-12.png)
 
 **explication**
 `Le service api` :
@@ -112,18 +112,18 @@ Le fichier docker-compose.yml permet de déployer l'application complète (front
 **test**
 
 Démarrer les conteneurs avec docker-compose
-![alt text](images/image-14.png)
+![alt text](image-14.png)
 
 Accédez à l'interface web via http://localhost/8082 dans votre navigateur.
 
 Cliquez sur le bouton "List Student" pour afficher la liste des étudiants.
-![alt text](images/image-9.png)
+![alt text](image-9.png)
 
 ### 3. Docker Registry
 **docker-compose-registry.yml**
 Pour déployer un registre Docker privé,
 
-![alt text](images/image-13.png)
+![alt text](image-13.png)
 
 **explication:**
 Ce fichier déploie un registre Docker privé et une interface web pour visualiser les images stockées dans `le registre.`
@@ -132,16 +132,16 @@ Ce fichier déploie un registre Docker privé et une interface web pour visualis
     Les deux services communiquent via un réseau privé Docker, et les images et données sont stockées de manière persistante grâce au volume registry_data.
 `Pousser l'image sur le registre`
     Taggez les images avec le registre local :
-    ![alt text](images/image-2.png)
+    ![alt text](image-2.png)
     Poussez les images vers le registre :
-    ![alt text](images/image-3.png)
-    ![alt text](images/image-4.png)
+    ![alt text](image-3.png)
+    ![alt text](image-4.png)
 
 **test :** 
 
-![alt text](images/image-15.png)
+![alt text](image-15.png)
 
-![alt text](images/image-5.png)
+![alt text](image-5.png)
 
 ## Conclusion
 Ce projet a permis de conteneuriser une application Python (Flask) avec un frontend en PHP grâce à Docker. L'utilisation de Docker Compose a simplifié le déploiement et la gestion des services, tandis qu'un registre Docker privé a sécurisé le stockage des images. Cette approche a amélioré la portabilité, la scalabilité et la maintenance de l'application, démontrant l'efficacité des technologies de conteneurisation.
