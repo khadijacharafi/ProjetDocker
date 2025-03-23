@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 # dockerprojet
-=======
 # Mini-Projet Docker : Conteneurisation d'une Application
 Ce projet consiste à conteneuriser une application Python avec un frontend en PHP et un backend en Flask. L'application permet d'afficher une liste d'étudiants avec leur âge.
 ## Structure du Projet
