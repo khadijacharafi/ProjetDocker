@@ -132,10 +132,8 @@ Ce fichier déploie un registre Docker privé et une interface web pour visualis
     Les deux services communiquent via un réseau privé Docker, et les images et données sont stockées de manière persistante grâce au volume registry_data.
     
 `Pousser l'image sur le registre`
-
     Taggez les images avec le registre local :
     ![alt text](image-2.png)
-    
     Poussez les images vers le registre :
     ![alt text](image-3.png)
     ![alt text](image-4.png)
