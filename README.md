@@ -3,6 +3,7 @@
 # Mini-Projet Docker : Conteneurisation d'une Application
 Ce projet consiste à conteneuriser une application Python avec un frontend en PHP et un backend en Flask. L'application permet d'afficher une liste d'étudiants avec leur âge.
 ## Structure du Projet
+```
 STUDENT_LIST
   ├── data
   ├── simple_api
@@ -17,6 +18,7 @@ STUDENT_LIST
   ├── docker-compose-registry.yml
   ├── docker-compose.yml
   └── README.md
+```
 ## Étapes du Projet
 ### 1. Construction de l'API
 
