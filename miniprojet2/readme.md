@@ -23,8 +23,11 @@ APP
 ![alt text](image-4.png)
 
 4. Pousser l’image sur Docker Hub :
+   
 ![alt text](image-5.png)
+
 ![alt text](image-6.png)
+
 ![alt text](image-7.png)
 
 ## Étape 2: Configuration du pipeline Jenkins ##
