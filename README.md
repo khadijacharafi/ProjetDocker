@@ -163,26 +163,26 @@ APP
 ```
 ## Étape 1: Configuration de Docker ##
 1. Créer un fichier Dockerfile :
-![alt text](image.png)
+![alt text](image16.png)
 
 2. Construire et tester l’image Docker :
-![alt text](image-1.png)
+![alt text](image-17.png)
 
 3. test :
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
+![alt text](image-20.png)
 
 4. Pousser l’image sur Docker Hub :
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](image-21.png)
+![alt text](image-22.png)
+![alt text](image-23.png)
 
 ## Étape 2: Configuration du pipeline Jenkins ##
 1. le fichier Jenkinsfile :
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](image-24.png)
+![alt text](image-25.png)
 
 2. Créer un pipeline dans Jenkins :
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](image-26.png)
+![alt text](image-27.png)
