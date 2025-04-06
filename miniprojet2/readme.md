@@ -31,9 +31,6 @@ APP
 ![alt text](image-7.png)
 
 ## Étape 2: Configuration du pipeline Jenkins ##
-1. le fichier Jenkinsfile :
-![alt text](image-8.png)
-![alt text](image-9.png)
 
 2. Créer un pipeline dans Jenkins :
 ![alt text](image-10.png)
