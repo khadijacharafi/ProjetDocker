@@ -170,11 +170,15 @@ APP
 
 3. test :
 ![alt text](image-18.png)
+
 ![alt text](image-19.png)
+
 ![alt text](image-20.png)
 
-4. Pousser l’image sur Docker Hub :
+5. Pousser l’image sur Docker Hub :
+
 ![alt text](image-21.png)
+
 ![alt text](image-22.png)
 ![alt text](image-23.png)
 
@@ -182,5 +186,5 @@ APP
 
 
 2. Créer un pipeline dans Jenkins :
-![alt text](image-26.png)
 ![alt text](image-27.png)
+![alt text](image-28.png)
