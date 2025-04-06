@@ -149,7 +149,7 @@ Ce projet a permis de conteneuriser une application Python (Flask) avec un front
 
 
 
-### Déploiement Automatisé d'une Application Web avec CI/CD sur Jenkins et AWS ###
+# Déploiement Automatisé d'une Application Web avec CI/CD sur Jenkins et AWS 
 
 ## Introduction ##
 Ce projet met en place une pipeline CI/CD avec Jenkins pour construire, tester, publier et déployer une application web en utilisant Docker et AWS.
